@@ -139,8 +139,8 @@ Thuật toán đo độ lệch:
 -	Đại lượng mô tả mối quan hệ giữa khoảng thời gian Ton và Toff được gọi là độ xung (duty_cycle), được tính theo công thức sau: 
 
 
+![image](https://user-images.githubusercontent.com/59023235/147856503-150deb2f-2144-4fe6-a9ea-5f668af6ebe1.png)
 
-![image](https://user-images.githubusercontent.com/59023235/147856048-8c98bbac-67b0-455d-8565-35296356b4b9.png)
 
 Hình 9. Giản đồ thời gian của xung PWM 
 
