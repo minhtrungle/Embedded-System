@@ -133,11 +133,12 @@ Thuật toán đo độ lệch:
 
 2.4.3. Phương pháp điều chế độ rộng xung (PWM)
 
-	Tốc độ quay của động cơ một chiều tỉ lệ thuận với điện áp đầu vào. Do đó, cách đơn giản nhất để điều khiển tốc độ động cơ là thay đổi mức điện áp đặt vào động cơ. 
-	Nguyên tắc cơ bản để thay đổi tốc độ đó là phương pháp PWM, cụ thể là giữ nguyên giá trị điện áp vào và thay đổi thời gian đặt điện áp vào động cơ.
-	 Khi thời gian mức cao Ton trong một chu kỳ của xung ngõ vào động cơ càng lớn thì điện áp trung bình đặt vào động cơ càng cao và ngược lại khi mức thời gian thấp ta có Toff .
-	Đại lượng mô tả mối quan hệ giữa khoảng thời gian Ton và Toff được gọi là độ xung (duty_cycle), được tính theo công thức sau: 
-duty_cycle  = Ton/(Ton + Toff)x 100 
+-	Tốc độ quay của động cơ một chiều tỉ lệ thuận với điện áp đầu vào. Do đó, cách đơn giản nhất để điều khiển tốc độ động cơ là thay đổi mức điện áp đặt vào động cơ. 
+-	Nguyên tắc cơ bản để thay đổi tốc độ đó là phương pháp PWM, cụ thể là giữ nguyên giá trị điện áp vào và thay đổi thời gian đặt điện áp vào động cơ.
+-	 Khi thời gian mức cao Ton trong một chu kỳ của xung ngõ vào động cơ càng lớn thì điện áp trung bình đặt vào động cơ càng cao và ngược lại khi mức thời gian thấp ta có Toff .
+-	Đại lượng mô tả mối quan hệ giữa khoảng thời gian Ton và Toff được gọi là độ xung (duty_cycle), được tính theo công thức sau: 
+
+
 
 ![image](https://user-images.githubusercontent.com/59023235/147856048-8c98bbac-67b0-455d-8565-35296356b4b9.png)
 
