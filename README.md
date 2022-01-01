@@ -2,6 +2,7 @@ CHƯƠNG 1: PHÂN TÍCH YÊU CẦU
 
 1.1. Yêu cầu thiết kế
 Thiết kế phần cứng và phần mềm cho robot dò đường theo quy đạo cho sẵn. Quỹ đạo di chuyển của xe theo hình vẽ  có chiều dài 2 m và rộng 1 m.
+
 ![image](https://user-images.githubusercontent.com/59023235/147855880-e6b68dab-078f-439c-b0d6-a03f815f11e7.png)
 
 1.2. Yêu cầu phần cứng
