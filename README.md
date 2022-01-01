@@ -7,6 +7,7 @@ Thiết kế phần cứng và phần mềm cho robot dò đường theo quy đ�
 
 1.2. Yêu cầu phần cứng
 Thiết bị robot dò đường, mạch điều khiển xe chạy được.
+
 1.3. Yêu cầu phần mềm
 Thiết kế chương trình điều khiển xe chạy đúng đường đã thiết kế (theo hình vẽ), xe chạy ổn định với tốc độ tối ưu.
 CHƯƠNG 2: PHÂN TÍCH THIẾT KẾ
