@@ -92,6 +92,7 @@ Sơ đồ lắp ghép mạch phần cứng được thể hiện như hình bên
 -	Các chân ENA và ENB của L298 nối vào chân 3 và 5 của Arduino để thực hiện băm xung
 
 2.4. Module thiết kế phần mềm
+
 Thuật toán dò đường thường sử dụng trong thiết kế các robot dò đường là đặt một dãy các cảm biến sắp xếp đều nhau phía trước robot. Việc lệch đường đi trong quá trình di chuyển sẽ được robot phát hiện thông qua các trạng thái của cảm biến, cụ thể: 
 -	 Nếu hai cảm biến ở giữa cảm nhận được đường đi thì robot đang tiến thẳng về phía trước (hình 7.a).
 -	 Nếu các cảm biến bên phải cảm nhận được đường đi thì robot di chuyển lệch về bên trái (hình 7.b).
@@ -107,7 +108,9 @@ Hình 7. Sự lệch trong quá trình di chuyển của robot.
 Ý tưởng chính để điều khiển robot dò đường: 
 -	 Khi robot di chuyển lệch sang trái của đường đi thì robot sẽ giảm dòng điện động cơ phải (giảm tốc độ bánh phải) trong khi động cơ trái vẫn hoạt động bình thường, điều này sẽ giúp cho robot quay lại đường đi ban đầu;
 -	 Khi robot di chuyển lệch sang phải của đường đi thì robot sẽ giảm dòng điện động cơ trái (giảm tốc độ bánh trái) trong khi động cơ phải vẫn hoạt động bình thường để giúp robot quay trở lại đường đi ban đầu.
+-	 
 2.4.1. Thư viện và công cụ sử dụng
+
 Ngôn ngữ phát triển: ngôn ngữ lập trình Arduino.
 IDE phát triển: phần mềm chuyên dụng Arduino IDE.
 Quản lý mã nguồn: Github.
