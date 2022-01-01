@@ -48,6 +48,7 @@ Mạch cầu H:
 ![image](https://user-images.githubusercontent.com/59023235/147855998-24ece14f-2b0c-4bd5-b989-765c4058b077.png)
 
 Hình 3: Sơ đồ mạch cầu H điều khiển động cơ
+
 Mỗi động cơ sẽ được nối với  mạch cầu H của module 1298n. Khi tín hiệu in là LOW thì bánh xe không quay. Ngược lại khi tín hiệu in là HIGH thì bánh sẽ quay. Tốc độ quay được điều chỉnh bằng cách điều chỉnh điện áp đặt vào 2 đầu mạch cầu này. 
 
 2.2.3. Module Hồng Ngoại V3 - Dò Đường
@@ -99,6 +100,7 @@ Thuật toán này được ứng dụng khá thành công trong việc thiết 
 ![image](https://user-images.githubusercontent.com/59023235/147856028-b7575f41-682f-4a0f-841f-8b585f2b2924.png)
 
 Hình 7. Sự lệch trong quá trình di chuyển của robot. 
+
 (a) Robot đi thẳng, (b) Robot lệch trái, (c) Robot lệch phải
 
 Ý tưởng chính để điều khiển robot dò đường: 
