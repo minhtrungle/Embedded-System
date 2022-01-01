@@ -124,7 +124,8 @@ Lưu đồ xử lý trong mã nguồn:
 Hình 8: Lưu đồ thuật toán mã nguồn điều khiển xe dò line 
 	Thuật toán đo độ lệch:
 
-![image](https://user-images.githubusercontent.com/59023235/147856396-c3551236-6af3-43cf-b89d-46244fdce3fa.png)
+![image](https://user-images.githubusercontent.com/59023235/147856428-dfe80675-f2a7-4964-9cc6-8cc62e181b0f.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/59023235/147856045-7ad28399-4808-4a45-a435-5416822ce864.png)
