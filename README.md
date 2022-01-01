@@ -75,6 +75,7 @@ Ngoài ra, một số chân Digital có chức năng đặc biệt:
 Arduino Uno R3 có 6 chân Analog từ A0 đến A5, đầu vào cung cấp độ phân giải là 10 bit.
 
 2.3. Thiết kế mạch phần cứng
+
 ![image](https://user-images.githubusercontent.com/59023235/147856020-b76a0aba-077b-400d-91fd-e9ef51de053d.png)
 
 Hình 6: Sơ đồ nối dây mạch robot dò line
@@ -159,3 +160,46 @@ duty_cycle  = Ton/(Ton + Toff)x 100
 ![image](https://user-images.githubusercontent.com/59023235/147856048-8c98bbac-67b0-455d-8565-35296356b4b9.png)
 
 Hình 9. Giản đồ thời gian của xung PWM 
+
+CHƯƠNG 4: QUẢN LÝ THIẾT BỊ MUA SẮM
+4.1. Danh sách các thiết bị đã mua
+
+![image](https://user-images.githubusercontent.com/59023235/147856140-48c0093e-d86e-4bbf-8803-22ac0dacc3dc.png)
+
+
+4.2. So sánh và đánh giá 
+
+![image](https://user-images.githubusercontent.com/59023235/147856154-c5fabd52-5ac2-476b-9f56-8ea720dbfbe3.png)
+
+Kết luận: Qua các đánh giá trên nhóm quyết định mua hàng trực tiếp tại cửa hàng để đảm bảo chất lượng các linh kiện, dễ giải quyết khi phát sinh vấn đề liên quan đến linh kiện. 
+Khi mua sắm trực tiếp được tư vấn để bổ sung các linh kiện còn thiếu trong dự kiến ban đầu, chênh lệch chi phí dự kiến và thực tế nằm trong khoảng cho phép. 
+ 
+CHƯƠNG 5: QUẢN LÝ RỦI RO
+
+Danh sách quản lý các rủi ro đã xảy ra và các hướng đề xuất:
+
+![image](https://user-images.githubusercontent.com/59023235/147856178-04da96ab-6a3e-4ddc-bb0f-1caf726b17c9.png)
+
+
+=> Lựa chọn giải quyết theo phương án 3. 
+Kết luận: Thông qua những rủi ro trên nhóm đã ghi nhận được các trường hợp có thể xảy ra rủi ro đối với dự án của nhóm. Sau đó đã đưa ra được các giải pháp khắc phục kịp thời và hiệu quả để hạn chế chi phí, thời gian để đảm bảo tiến độ và chất lượng dự án.
+
+CHƯƠNG 6: ĐÁNH GIÁ KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
+
+6.1. Kết quả đạt được 
+- Xe Robot tự động có khả năng di chuyển theo một đường đã định sẵn 
+
+![image](https://user-images.githubusercontent.com/59023235/147856203-07d8dd68-b8aa-44c7-a486-89460c9b3821.png)
+
+-	Ưu điểm 
+•	Thể hiện được khả năng hoàn toàn tự động của mô hình
+-	Nhược điểm 
+•	Thiết kế mạch , lắp ráp mất nhiều thời gian 
+•	Khó khăn trong việc mua phụ kiện trong thời gian dịch bệnh
+
+6.2. Đánh giá kết quả
+-	Sau một thời gian nghiên cứu dưới sự hướng dẫn của thầy GV. Ngô Lam Trung và tìm hiểu từ các nguồn thông tin hữu ích trên mạng. Nhóm đã tận dụng tốt những thông tin và tri thức liên quan đến xe dò line để áp dụng và phát triển cho sản phẩm của nhóm. 
+-	Trong quá trình từ khi lắp ráp thiết bị đến khi thực hiện code phần mềm điều khiển thiết bị, nhóm cũng gặp một số khó khăn liên quan đến phần cứng (cháy diot điều chỉnh nguồn đầu vào; mắt dò line quá nhạy), và một số khó khăn vì tình hình dịch bệnh nên cả nhóm không làm việc chung được để phát triển sản phẩm. 
+-	Trước những thuận lợi và khó khăn trên, nhóm cũng đã cố gắng hoàn thiện sản phẩm ở mức độ khá tốt. Xe có thể chạy dò line theo yêu cầu được đề ra.  
+6.3. Hướng phát triển trong tương lai 
+-	Như đã được định hướng từ trước, sản phẩm của nhóm có thể được phát triển thêm các module tiếp theo như là ứng dụng các công nghệ thông minh AI để giúp xe thực hiện được một số chức năng thông minh khác. Những chức năng ấy có thể là nhận biết các loại tín hiệu biển báo giao thông để có thể đưa ra các hành động phù hợp với từng loại tín hiệu giao thông đó. 
