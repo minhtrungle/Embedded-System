@@ -60,6 +60,7 @@ Hình 4: Module Hồng Ngoại V3 - Dò Đường
 -	Phát hiện vùng màu đen và vùng màu sáng 
 -	Module Hồng Ngoại V3 - Dò Đường sử dụng 8 mắt thu quang đọc dữ liệu. Module được ứng dụng trong các xe thông minh hoặc một robot đi theo đường màu đã xác định trước. Module được ứng dụng trong xe thông minh để tránh những vách đá, vật cản. Module cảm biến hồng ngoại đã được tích hợp sẵn một vi điều khiển để giải mã tín hiệu dò đường, giúp giảm thiểu công việc xử lý cho mạch điều khiển chính.
 -	Nguồn hoạt động: 3.3V từ UNO
+-	
 2.2.4. Arduino UNO R3 chíp dán
 
 ![image](https://user-images.githubusercontent.com/59023235/147856010-238511b9-0cec-45ec-9b05-31464a10d0c6.png)
