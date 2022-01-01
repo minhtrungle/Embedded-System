@@ -158,4 +158,6 @@ int deviationDarkLine4Sensor (int PinNumb1, int PinNumb2, int PinNumb3, int PinN
 duty_cycle  = Ton/(Ton + Toff)x 100 
  
 Hình 9. Giản đồ thời gian của xung PWM 
+![image](https://user-images.githubusercontent.com/59023235/147855854-61d03a53-3684-4f39-afa4-32ffd816402d.png)
+
  
