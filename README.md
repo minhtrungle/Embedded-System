@@ -114,6 +114,9 @@ Hình 7. Sự lệch trong quá trình di chuyển của robot.
 Ngôn ngữ phát triển: ngôn ngữ lập trình Arduino.
 IDE phát triển: phần mềm chuyên dụng Arduino IDE.
 Quản lý mã nguồn: Github.
+
+2.4.2. Mã nguồn phát triển
+
 Lưu đồ xử lý trong mã nguồn:
 
 ![image](https://user-images.githubusercontent.com/59023235/147856037-801d1311-a2a5-4b84-b504-0e7517849671.png)
@@ -121,39 +124,8 @@ Lưu đồ xử lý trong mã nguồn:
 Hình 8: Lưu đồ thuật toán mã nguồn điều khiển xe dò line 
 	Thuật toán đo độ lệch:
 
-boolean IFSensor (byte PinNumb)
-{
-  //0 sáng
-  //1 tối
-  return (digitalRead (PinNumb));
-}
+![image](https://user-images.githubusercontent.com/59023235/147856396-c3551236-6af3-43cf-b89d-46244fdce3fa.png)
 
- // Hàm đo độ lệch
-int deviationDarkLine4Sensor (int PinNumb1, int PinNumb2, int PinNumb3, int PinNumb4)
-{
-  int left = 0;    //biến kiểm tra lệch trái
-  int right = 0;   // biến kiểm tra lệch phải
-  left = IFSensor (PinNumb1) + IFSensor (PinNumb2); //kiểm tra mấy cảm biến trái ở trong màu đen
-  right = IFSensor (PinNumb3) + IFSensor (PinNumb4); //kiểm tra mấy cảm biến phải ở trong màu đen
-  Serial.print("left=");
-  Serial.println(left);
-  Serial.print("right=");
-  Serial.println(right);
-  if (IFSensor (PinNumb1) + IFSensor (PinNumb2) + IFSensor (PinNumb3) + IFSensor (PinNumb4) == 4)
-  {
-    Serial.println("Gap vach ngang dung lai");
-    return 4;
-  }
-  if ((left != 0) || (right != 0))
-      return left - right;
-  else 
-      return 3;
-
-    // Trả về 0 là không lệch
-    // Âm là lệch trái (-1;-2)
-    //Dương là lệch phải(1;2)
- 
-}
 
 ![image](https://user-images.githubusercontent.com/59023235/147856045-7ad28399-4808-4a45-a435-5416822ce864.png)
 
