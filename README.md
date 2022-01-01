@@ -122,7 +122,8 @@ Lưu đồ xử lý trong mã nguồn:
 ![image](https://user-images.githubusercontent.com/59023235/147856037-801d1311-a2a5-4b84-b504-0e7517849671.png)
 
 Hình 8: Lưu đồ thuật toán mã nguồn điều khiển xe dò line 
-	Thuật toán đo độ lệch:
+
+Thuật toán đo độ lệch:
 
 ![image](https://user-images.githubusercontent.com/59023235/147856428-dfe80675-f2a7-4964-9cc6-8cc62e181b0f.png)
 
@@ -131,6 +132,7 @@ Hình 8: Lưu đồ thuật toán mã nguồn điều khiển xe dò line
 ![image](https://user-images.githubusercontent.com/59023235/147856045-7ad28399-4808-4a45-a435-5416822ce864.png)
 
 2.4.3. Phương pháp điều chế độ rộng xung (PWM)
+
 	Tốc độ quay của động cơ một chiều tỉ lệ thuận với điện áp đầu vào. Do đó, cách đơn giản nhất để điều khiển tốc độ động cơ là thay đổi mức điện áp đặt vào động cơ. 
 	Nguyên tắc cơ bản để thay đổi tốc độ đó là phương pháp PWM, cụ thể là giữ nguyên giá trị điện áp vào và thay đổi thời gian đặt điện áp vào động cơ.
 	 Khi thời gian mức cao Ton trong một chu kỳ của xung ngõ vào động cơ càng lớn thì điện áp trung bình đặt vào động cơ càng cao và ngược lại khi mức thời gian thấp ta có Toff .
@@ -142,6 +144,7 @@ duty_cycle  = Ton/(Ton + Toff)x 100
 Hình 9. Giản đồ thời gian của xung PWM 
 
 CHƯƠNG 4: QUẢN LÝ THIẾT BỊ MUA SẮM
+
 4.1. Danh sách các thiết bị đã mua
 
 ![image](https://user-images.githubusercontent.com/59023235/147856140-48c0093e-d86e-4bbf-8803-22ac0dacc3dc.png)
@@ -167,6 +170,7 @@ Kết luận: Thông qua những rủi ro trên nhóm đã ghi nhận được c
 CHƯƠNG 6: ĐÁNH GIÁ KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
 
 6.1. Kết quả đạt được 
+
 - Xe Robot tự động có khả năng di chuyển theo một đường đã định sẵn 
 
 ![image](https://user-images.githubusercontent.com/59023235/147856203-07d8dd68-b8aa-44c7-a486-89460c9b3821.png)
@@ -178,8 +182,11 @@ CHƯƠNG 6: ĐÁNH GIÁ KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
 •	Khó khăn trong việc mua phụ kiện trong thời gian dịch bệnh
 
 6.2. Đánh giá kết quả
+
 -	Sau một thời gian nghiên cứu dưới sự hướng dẫn của thầy GV. Ngô Lam Trung và tìm hiểu từ các nguồn thông tin hữu ích trên mạng. Nhóm đã tận dụng tốt những thông tin và tri thức liên quan đến xe dò line để áp dụng và phát triển cho sản phẩm của nhóm. 
 -	Trong quá trình từ khi lắp ráp thiết bị đến khi thực hiện code phần mềm điều khiển thiết bị, nhóm cũng gặp một số khó khăn liên quan đến phần cứng (cháy diot điều chỉnh nguồn đầu vào; mắt dò line quá nhạy), và một số khó khăn vì tình hình dịch bệnh nên cả nhóm không làm việc chung được để phát triển sản phẩm. 
--	Trước những thuận lợi và khó khăn trên, nhóm cũng đã cố gắng hoàn thiện sản phẩm ở mức độ khá tốt. Xe có thể chạy dò line theo yêu cầu được đề ra.  
+-	Trước những thuận lợi và khó khăn trên, nhóm cũng đã cố gắng hoàn thiện sản phẩm ở mức độ khá tốt. Xe có thể chạy dò line theo yêu cầu được đề ra.
+-	  
 6.3. Hướng phát triển trong tương lai 
+
 -	Như đã được định hướng từ trước, sản phẩm của nhóm có thể được phát triển thêm các module tiếp theo như là ứng dụng các công nghệ thông minh AI để giúp xe thực hiện được một số chức năng thông minh khác. Những chức năng ấy có thể là nhận biết các loại tín hiệu biển báo giao thông để có thể đưa ra các hành động phù hợp với từng loại tín hiệu giao thông đó. 
