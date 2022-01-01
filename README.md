@@ -1,4 +1,4 @@
-#Piano app: Sử dụng Unity thiết kế app, kết nối với Proteus
+#Piano app: Sử dụng Unity thiết kế app, Sử dụng pm Keil uvision 4 kết nối với Proteus
 
 #PROJECT
 
